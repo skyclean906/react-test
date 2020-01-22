@@ -11995,3 +11995,37 @@ a.text-dark:focus {
   text-align: center !important;
 }
 
+.text-type-1 {
+  font-family: Neue Alte Grotesk;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #394166;
+  font-weight: 800;
+}
+
+.text-type-2 {
+  font-family: Neue Alte Grotesk;
+  font-size: 13px;
+  line-height: 13px;
+  float: right;
+  color: #9CA0B2;
+  cursor: pointer;
+}
+
+.text-type-3 {
+  font-family: Neue Alte Grotesk;
+  font-size: 14px;
+  line-height: 17px;
+  color: #394166;
+  font-weight: bold;
+}
+
+.text-type-4 {
+  font-family: Neue Alte Grotesk;
+  font-size: 12px;
+  line-height: 14px;
+  color: #394166;
+}
+

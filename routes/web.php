@@ -14,3 +14,5 @@
 Route::get('/', ['as' => 'index', 'uses' => 'FileController@index']);
 Route::get('/file/{id}', ['as' => 'index', 'uses' => 'FileController@file']);
 Route::post('/uploadFile', ['as' => 'upload', 'uses' => 'FileController@upload']);
+
+Route::get('/clearall', ['as' => 'index', 'uses' => 'FileController@clear']);
