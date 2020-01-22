@@ -1,0 +1,70 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.document-title-card{
+  cursor: pointer; margin-top: 10px; padding: 10px 10px; height: 76px; width: 100%;
+}
+
+.document-title-card.active {
+  cursor: pointer; margin-top: 10px; padding: 10px 10px; height: 76px; width: 100%; background: #FFFFFF; border: 1px solid #E8EAEF; box-sizing: border-box; box-shadow: 0px 3px 6px rgba(57, 65, 102, 0.05); border-radius: 2px; border-left: 5px solid #4077E4;
+}
+
+.main-view-header {
+  height: 60px;background:#4077E4;margin: 0px !important;padding-left: 15px;
+}
+
+
+.main-view-header h3 {
+  font-family: Neue Alte Grotesk;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.main-view {
+  height: calc(100% - 60px); margin: 0px !important;padding-left: 15px;
+}
+
+#app{
+  height: 100% !important;
+  background: white !important;
+}
+
+
+.pg-viewer-wrapper {
+  width:80%;
+  margin: 10px auto;
+  overflow: hidden !important;
+}
+
+.pdf-canvas{
+  text-align:center !important;
+}
+
+.text-type-1 {
+  font-family: Neue Alte Grotesk; font-size: 12px; line-height: 15px; letter-spacing: 2px; text-transform: uppercase; color: #394166; font-weight:800;
+}
+
+.text-type-2 {
+  font-family: Neue Alte Grotesk; font-size: 13px;line-height: 13px; float:right; color: #9CA0B2; cursor:pointer;
+}
+
+.text-type-3 {
+  font-family: Neue Alte Grotesk; font-size: 14px; line-height: 17px;color: #394166;
+}
+
+.text-type-4 {
+  font-family: Neue Alte Grotesk; font-size: 12px; line-height: 14px;color: #394166;
+}
